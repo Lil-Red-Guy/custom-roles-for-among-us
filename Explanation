@@ -1,0 +1,33 @@
+What is included in this bot:
+
+At the time of writing this, the bot is in version 1 and includes the following new roles:
+
+Jester: Somoene who wins by getting voted out
+
+Detective: Someone who may reveal thenselves as the detective immediatly being cleared (Note: non detectives may not lie about being a detective)
+
+Commander: Someone that upon calling a meeting/reporting a body may reveal thenselves as the commander and pick someone to be voted out. This may only be done ONCE. (Non commanders may not claim to be commander. Commander must use ability upon revealing themselfs)
+
+Crewpostor: A crewmate that wins with the impostors.
+
+How to use the roles
+
+Get everyone who is going to play in the same VC and make sure the VC can be acessed by the bot. Then run %create. That will bring up a embed with the bot settings. Use %config (whatever config here EX: jesterCount) (Value for the config EX: 0). For lets supose i wanted a no jester game, i would do
+
+%config jesterCount 0.
+
+When you start your among us game, run %start. The bot will message anyone who got a special role. If a impostor gets a special role it does not grant the impostor any extra abilities.
+
+Troubleshooting
+
+Q- No one is recieving a message from the bot
+
+A- That can be one of 2 things: 1- The bot didint manage to get the voice channel you are in in wich game trying again should fix it (Also make sure it has the permissions to see said channel) 2-There are less people in the VC then there are custom roles so the game wasant started. (For example: if you have 2 jester 2 detectives 1 commander and 1 crewpostor but only 5 people in the vC it wont start, since there are more roles to be had then players to recive said roles)
+
+Q- Bot is offline!
+
+A- Im probably updating it. Or power went out. Whatever it should be fixed within the hour
+
+Q- Something else
+
+A- Join the support server and ping me on #bot-help
